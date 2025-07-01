@@ -1,6 +1,14 @@
-Intelligent Agent project.
-Multiple agents attempt to solve a maze, then the program outputs graphs and statistics.
-•	RandomBrain selects random unvisited directions, serving as a baseline.
-•	DFSBrain explores paths deeply before backtracking, suitable for exploring but not optimized for efficiency.
-•	HeuristicBrain uses a greedy approach based on Manhattan distance to the goal.
-•	AStarBrain combines actual cost (g(n)) and heuristic estimate (h(n)) for optimal, informed pathfinding.
+# Intelligent Agents Maze Simulation
+
+## Agents Implemented
+- **Random**: Picks unvisited directions at random.
+- **DFS**: Explores deeply before backtracking.
+- **Heuristic**: Selects paths closest to the goal using Manhattan distance.
+- **A\***: Combines cost so far and estimated distance for optimal pathfinding.
+
+## Dependencies
+
+Install required libraries using pip:
+
+```bash
+pip install pygame-ce matplotlib
